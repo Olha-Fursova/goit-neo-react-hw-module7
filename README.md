@@ -1,16 +1,74 @@
-# React + Vite
+# Contacts App — React + Redux Toolkit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React application built as a final practical exercise for a front-end React course.
+It demonstrates modern state management, asynchronous data handling, and performance optimization techniques using Redux Toolkit.
 
-Currently, two official plugins are available:
+The app allows users to manage a collection of contacts stored on a remote API, providing a simple but realistic example of working with asynchronous data in a React application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Live Demo
 
-## React Compiler
+https://goit-neo-react-hw-module7-seven-mu.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+React (Vite setup)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Redux Toolkit
+
+React Redux
+
+Axios
+
+CSS Modules
+
+ESLint + Prettier
+
+Vercel deployment
+
+## Key Features
+
+Async data fetching from a backend API
+
+Global state management with Redux Toolkit
+
+Optimized selectors with memoization
+
+Contact filtering functionality
+
+Loading and error state handling
+
+Modular component structure
+
+Responsive UI styling with CSS Modules
+
+## Getting Started
+
+### Clone the repository
+
+git clone https://github.com/Olha-Fursova/goit-neo-react-hw-module7.git
+
+### Install dependencies
+
+npm install
+
+### Run locally
+
+npm run dev
+
+### Then open:
+
+http://localhost:5173
+
+## Learning Focus
+
+This project focuses on practical experience with:
+
+- Asynchronous Redux workflows
+
+- API integration in React apps
+
+- State normalization and selectors
+
+- Memoization for performance optimization
+
+- Modern React project structure
